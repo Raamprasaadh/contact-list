@@ -1,13 +1,8 @@
+import HeaderComponent from './Components/Header/Header';
 function App() {
   return (
     <div>
-      
-      <button>Add</button>
-      <div>
-        <span>Name</span>
-        <br />
-        <span>Phone</span>
-      </div>
+      <HeaderComponent/>  
     </div>
   );
 }
